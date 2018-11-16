@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Registrate
+        </title>
+        <style type="text/css">
+        .loginContainer{
+            padding:auto;
+            margin:auto;
+            margin-top: 10%;
+            text-align:center;
+            width:400px;
+            /* background-color:#66FFFF; */
+            display:block;
+            height:400px;     
+        }
+        
+        </style>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <script>
+            // function toLogin(){
+                $(document).ready(function(){
+           
+           $("#registrar").click(function(){
+           window.location.replace('login.html');
+       
+            // alert("Bienvenido Cristian")
+           });
+       });
+       
+           
+            // }
+        
+        </script>
+
+    </head>
+    <body>
+        <div class="loginContainer">
+        <form>
+        <label>Nombre</label>
+        <br>
+        <input type="email" id="email" />
+        <br>
+        <label>Contraseña</label>
+        <br>
+        <input type="password" id="password" />
+        <br>
+        <label>confirme la Contraseña</label>
+        <br>
+        <input type="password" id="password" />
+        <br>
+        <input type="button" value="registrarte" id="registrar">
+    </form>
+    </body>
+</html>
