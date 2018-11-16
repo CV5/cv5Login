@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+                Primeras_ventanas
+        </title>
+        <style type="text/css">
+        .loginContainer{
+            padding:auto;
+            margin:auto;
+            margin-top: 10%;
+            text-align:center;
+            width:400px;
+            /* background-color:#66FFFF; */
+            display:block;
+            height:400px;
+            
+        }
+        
+        </style>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <script src="app/login.js"></script>
+        <script>  
+        
+        
+        // function getUser(){
+                // fetch("https://randomuser.me/api")
+                //     .then(r => r.json())
+                //     .then(j => {
+                //         var result = j.results[0];
+                //         var email = result.email;
+                //         var phone = result.phone;
+                //         var cell = result.cell;
+
+                //         console.log("Email: "+email+" Telefono: "+phone+" Celular: "+cell)
+
+
+                //     })
+                //     .catch(e => console.log(e))
+
+
+        // }
+        
+        
+     
+        
+        </script>
+    </head>
+    <body>
+        <div class="loginContainer">
+            <form>
+        <label>Usuario</label>
+        <br>
+        <input type="email" id="email" />
+        <br>
+        <label>Contraseña</label>
+        <br>
+        <input type="password" id="password" />
+        <br>
+        <a href="#">+Registrate</a> 
+        <input type="button" value="Login" id="login">
+    </form>
+    </body>
+</html>
